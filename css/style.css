@@ -1,0 +1,44 @@
+:root{
+    --main_color:#24353F;
+    --sec_color:#17A2B8;
+}
+body{
+    background-color: var(--main_color);
+    
+}
+.content{
+    width: 60%;
+    background-color: var(--main_color);
+    box-shadow: 5px 5px 15px 15px rgba(0,0,0,0.4);
+}
+h1{
+    color: var(--sec_color);
+    font-family:sans-serif ;
+}
+.form-control{
+    background-color: var(--main_color);
+    
+}
+input::placeholder{
+    color: white;
+}
+.form-control:focus{
+    background-color: var(--main_color);
+    color: white;
+}
+a{
+    text-decoration: none;
+    transition: all 0.5s;
+    cursor:text;
+}
+span{
+    cursor: pointer;
+    transition: all 0.5s;
+}
+span:hover{
+    text-decoration: underline;
+}
+.navbar{
+    font-family: sans-serif;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4); ;
+}
